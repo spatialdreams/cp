@@ -1,6 +1,7 @@
-#Takes a hex string and XORs it against the ascii character range
-#Ranks the results depending on presence of characters and the
-#absence of special characters.
+#####################################################################################
+#   Takes a hex string and XORs it against the ascii character range. Ranks the     #
+# results depending on presence of characters and the absence of special characters.#
+#####################################################################################
 import sys
 import string
 import conversions as convert
