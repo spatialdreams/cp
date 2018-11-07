@@ -1,4 +1,6 @@
-#outputs the number of different positional bits between two binary input values
+####################################################################################
+#  outputs the number of different positional bits between two binary input values #
+####################################################################################
 def getDistance(bitset1, bitset2):
   if len(bitset1) != len(bitset2):
     raise ValueError('Positional arguments must be of equal length')
