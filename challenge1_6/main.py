@@ -1,9 +1,11 @@
-#Tries to find the keysize of a string encrypted with a repeating key by 
-#averaging the hamming distance between sequential segments of an input file. 
-#Min/max values are the lowest/highest amount of bytes to iterate through. We 
-#take the 5 lowest scoring keysizes and try to decrypt the file by XORing each 
-#key segment against the 127 ascii character space. Finally we rank the 
-#results based on character frequency and absence of special characters.
+####################################################################################
+#Tries to find the keysize of a string encrypted with a repeating key by averaging #
+#the hamming distance between sequential segments of an input file. Min/Max values #
+#  are the lowest/highest amount of bytes to iterate through. We take the 5 lowest #
+# scoring keysizes and try to decrypt the file by XORing each key segment against  #
+#   the 127 ascii character space. Finally we rank the results based on character  #
+#      results based on character frequency and absence of special characters.     #
+####################################################################################
 import os  
 import sys 
 import json 
