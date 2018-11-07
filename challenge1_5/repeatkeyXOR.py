@@ -25,7 +25,7 @@ def binToAscii(data):
   data=int(data,2)
   return data.to_bytes((data.bit_length()+7)//8,'big').decode()
 
-#for looping back to start of key at end of sequence
+#for looping back to start of key at end of sequence LOL HAHA %
 def radix(currentIteration,keyLength):
   if currentIteration < keyLength:
     return currentIteration
