@@ -1,0 +1,5 @@
+AES in ECB mode
+The Base64-encoded content in this file has been ectrypted via AES-128 in ECB mode under the key
+"YELLOW SUBMARINE".
+Decrypt the code with this key.
+
